@@ -12,7 +12,7 @@
 	<key>keyEquivalent</key>
 	<string>@s</string>
 	<key>name</key>
-	<string>Validate Quick with JSLint</string>
+	<string>Validate Quick with Javascript Lint</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
