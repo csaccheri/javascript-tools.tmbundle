@@ -61,16 +61,6 @@
 
     Yikes, a CSS tool in the Javascript Tools bundle!  Minifies your current CSS document by removing all unneeded whitespaces and comments.
 
-## Document
-
-*   **Document with JsDoc Toolkit** (⌃⌘D)
-
-    Generates HTML documentation from commented JavaScript source code using [JsDoc Toolkit][jsdoc] and displays it in TextMate's Web Preview window. You can generate documentation from a single file, multiple selected files, or an entire directory. Useful for documenting your own projects or generating API docs for a project you're unfamiliar with. 
-    
-*   **View Tag Reference** (⌃⌘D)
-
-    Opens the [JsDoc Toolkit tag reference][jsdot] in TextMate's Web Preview window.
-
 ## Formatting
 
 *   **Format Javascript** (⌃Q)
@@ -91,10 +81,6 @@
 
     Does the opposite of the above; turns an existing bookmarklet into a standard javascript.
 
-# Snippets
-
-This bundle includes a number of snippets to help you write JsDoc Toolkit-friendly comments.  The `docblock` snippet will create a documentation comment block (starting with `/**`), while the other snippets are specific to the various JsDoc Toolkit tags.  Read the [JsDoc Toolkit tag reference][jsdot] for more information on each tag.
-
 # Licenses
 
 * **[JavaScript Lint][lint]** Based on [SpiderMonkey][smonk], which is licensed under the [MPL][mpl]/[GPL][gpl]/[LGPL][lgpl] tri-license
@@ -104,7 +90,6 @@ This bundle includes a number of snippets to help you write JsDoc Toolkit-friend
 * **[Packr][packr]** [MIT License][mit]
 * **[YUI! Compressor][yuic]** [BSD License][ybsd]
 * **[JSMin][jsmin]** Copyright 2001 Douglas Crockford
-* **[JsDoc Toolkit][jsdoc]** [MIT License][mit]
 * **[JS Beautifier][jbeau]** Copyright 2009 Einar Lielmanis
 
 [rhino]:  http://developer.mozilla.org/en/docs/Rhino_documentation
@@ -126,6 +111,4 @@ This bundle includes a number of snippets to help you write JsDoc Toolkit-friend
 [gpl]:    http://www.gnu.org/copyleft/gpl.html
 [lgpl]:   http://www.gnu.org/licenses/lgpl.html
 [smonk]:  http://www.mozilla.org/js/spidermonkey/
-[jsdoc]:  http://code.google.com/p/jsdoc-toolkit/
-[jsdot]:  http://code.google.com/p/jsdoc-toolkit/wiki/TagReference
 [jbeau]:  http://jsbeautifier.org/
